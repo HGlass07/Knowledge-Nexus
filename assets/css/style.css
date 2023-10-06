@@ -14,11 +14,17 @@ body {
     display:flex;
     flex-direction:column;
     font-family:Rajdhani, sans-serif;
+    max-width:100vw;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 /*header*/
 header {
     background-color:lightblue;
+    text-align:center;
 }
 
 /*main content*/
@@ -26,6 +32,11 @@ main {
     background-color:lightgreen;
     /*ensures main content takes up full page space*/
     flex: 1 0 auto;
+}
+
+#intro {
+    text-align:center;
+    margin-top:150px;
 }
 
 /*footer*/
