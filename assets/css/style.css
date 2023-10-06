@@ -1,0 +1,31 @@
+
+/*asterisk wildcard command to override defauly browser styless*/
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/*generic body style*/
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/*header*/
+header {
+    background-color:lightblue;
+}
+
+/*main content*/
+main {
+    background-color:lightgreen;
+    /*ensures main content takes up full page space*/
+    flex: 1 0 auto;
+}
+
+/*footer*/
+footer {
+    background-color:lightgoldenrodyellow;
+}
