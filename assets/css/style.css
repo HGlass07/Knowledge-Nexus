@@ -27,7 +27,6 @@ header {
     text-align:center;
 }
 
-
 /*main content*/
 main {
     /*ensures main content takes up full page space*/
@@ -49,6 +48,13 @@ main {
 #intro-break{
     border: 1px solid #000000;
     margin: 15px;
+}
+
+#intro-image-1 {
+    background:url(../images/intro-image-one.jpeg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
 }
 
 /*footer*/
