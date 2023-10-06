@@ -27,6 +27,7 @@ header {
     text-align:center;
 }
 
+
 /*main content*/
 main {
     /*ensures main content takes up full page space*/
@@ -45,7 +46,10 @@ main {
     margin-top:50px;
     padding:10px;
 }
-
+#intro-break{
+    border: 1px solid #000000;
+    margin: 15px;
+}
 
 /*footer*/
 footer {
