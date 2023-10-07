@@ -23,7 +23,7 @@ h1 {
 
 /*header*/
 header {
-    background-color:lightblue;
+    background-color:rgba(180, 230, 173, 0.596);
     text-align:center;
 }
 
@@ -42,6 +42,7 @@ header {
 main {
     /*ensures main content takes up full page space*/
     flex: 1 0 auto;
+    background-color: rgba(180, 230, 173, 0.596);
 }
 
 #hero-image {
@@ -56,16 +57,31 @@ main {
     margin-top:50px;
     padding:10px;
 }
+
+/*seperates sub-heading from main text*/
 #intro-break{
     border: 1px solid #000000;
     margin: 15px;
 }
 
+#intro-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+/*image formatted to be circular, and fit centrally on the page*/
 #intro-image-1 {
     background:url(../images/intro-image-one.jpeg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    
 }
 
 /*footer*/
