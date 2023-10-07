@@ -27,6 +27,17 @@ header {
     text-align:center;
 }
 
+#menu {
+    display:flex;
+    justify-content: space-around;
+    border: 2px solid rgb(68, 177, 94);
+    list-style-type: none;
+    padding: 0 1rem;
+
+}
+
+
+
 /*main content*/
 main {
     /*ensures main content takes up full page space*/
