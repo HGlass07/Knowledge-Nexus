@@ -27,16 +27,19 @@ header {
     text-align:center;
 }
 
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
 #menu {
     display:flex;
     justify-content: space-around;
-    border: 2px solid rgb(68, 177, 94);
     list-style-type: none;
     padding: 0 1rem;
 
 }
-
-
 
 /*main content*/
 main {
@@ -47,7 +50,7 @@ main {
 
 #hero-image {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -64,25 +67,47 @@ main {
     margin: 15px;
 }
 
+/*flex display setting for home page intro section images*/
 #intro-images {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items:center;
     justify-content: center;
     padding: 10px;
 
 }
 
-/*image formatted to be circular, and fit centrally on the page*/
 #intro-image-1 {
-    background:url(../images/intro-image-one.jpeg) no-repeat top center / cover;
+    background:url(../images/intro-image-1.jpeg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 200px;
     max-height: 200px;
-    
 }
+
+#intro-image-2 {
+    background: url(../images/intro-image-2.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#intro-image-3 {
+    background: url(../images/intro-image-3.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
 
 /*footer*/
 footer {
