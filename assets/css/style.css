@@ -116,8 +116,6 @@ main {
 }
 
 
-
-
 /*blog page*/
 
 #blog-content {
@@ -145,12 +143,18 @@ main {
     margin: 15px;
 }
 
-
-
+#sources {
+    display:flex;
+    font-size: xx-small;
+    text-align: center;
+    justify-content: center;
+}
 
 /*footer*/
 footer {
-    background-color:lightgoldenrodyellow;
+    background-color:rgba(180, 230, 173, 0.596);
+    height:50px;
+    border-top: solid 2px #000000;
 }
 
 
