@@ -25,11 +25,13 @@ h1 {
 header {
     background-color:rgba(180, 230, 173, 0.596);
     text-align:center;
+    border-bottom: 2px solid #000000;
 }
 
 header a {
     text-decoration: none;
     font-weight: bolder;
+    color:#000000;
     
 }
 
@@ -38,7 +40,12 @@ header a {
     justify-content: space-around;
     list-style-type: none;
     padding: 0 1rem;
+    margin-bottom: 4px;
 
+}
+
+.active {
+    border-bottom: 2px solid #000000;
 }
 
 /*main content*/
@@ -112,4 +119,20 @@ main {
 /*footer*/
 footer {
     background-color:lightgoldenrodyellow;
+}
+
+
+/* Tablet and larger media query */
+@media screen and (min-width: 768px)
+{
+    #intro-images div {
+        margin:20px;
+    }
+}
+
+/* Desktop and larger media query */
+@media screen and (min-width: 992px) {
+    #intro-images div {
+        margin:40px;
+    }
 }
