@@ -49,6 +49,7 @@ header a {
 }
 
 /*main content*/
+/*homepage*/
 main {
     /*ensures main content takes up full page space*/
     flex: 1 0 auto;
@@ -113,6 +114,37 @@ main {
     max-width: 200px;
     max-height: 200px;
 }
+
+
+
+
+/*blog page*/
+
+#blog-content {
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+#blog-heading {
+    padding-left:10px;
+}
+
+#author{
+    margin-top:10px;
+}
+
+#blog-content p{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    margin:5px;
+}
+
+/*seperates blog content from sources*/
+#blog-break {
+    border: 1px solid #000000;
+    margin: 15px;
+}
+
 
 
 
