@@ -53,7 +53,7 @@ header a {
 main {
     /*ensures main content takes up full page space*/
     flex: 1 0 auto;
-    background-color: rgba(180, 230, 173, 0.596);
+    background-color: #ffffff;
 }
 
 #hero-image {
@@ -114,6 +114,52 @@ main {
     max-width: 200px;
     max-height: 200px;
 }
+
+
+/*contact page form styling*/
+
+#contact-form {
+    display:flex;
+    width:100vw;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    color: #ffffff;
+    background-color: rgba(13, 126, 57, 0.849);
+    padding: 30px;
+}
+
+#contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+#query-text-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #65b76f;
+    color: #fafafa;
+}
+
+
 
 
 /*blog page*/
