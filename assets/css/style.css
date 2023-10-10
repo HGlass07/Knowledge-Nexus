@@ -82,7 +82,6 @@ main {
     align-items:center;
     justify-content: center;
     padding: 10px;
-
 }
 
 #intro-image-1 {
@@ -117,6 +116,13 @@ main {
 
 
 /*contact page form styling*/
+
+#contact-intro {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+}
 
 #contact-form {
     display:flex;
@@ -159,15 +165,30 @@ main {
     color: #fafafa;
 }
 
-
+/*divides the contact form from the tutor details section on mobile size screens*/
+#contact-divide {
+    border: 1px solid #000000;
+    margin: 15px;
+}
 
 
 /*blog page*/
+
+#blog-logo {
+    display:flex;
+    justify-content: flex-end;
+    margin:15px;
+    font-size:160%;
+    position:absolute;
+    right:20px;
+    top:340px;
+}
 
 #blog-content {
     margin-bottom: 20px;
     margin-top:20px;
 }
+
 #blog-heading {
     padding-left:10px;
 }
