@@ -1,4 +1,4 @@
-**Knowledge Nexus CI Portfolio Project **
+**Knowledge Nexus**
 
 Contents:
 1. Description
