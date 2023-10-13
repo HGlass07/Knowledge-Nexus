@@ -210,12 +210,18 @@ main {
 }
 
 #sources {
-    display:flex;
-    font-size: small;
-    text-align: center;
-    justify-content: center;
-    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    margin-right:50px;
+}
+
+#sources li{
+    width:80vw;
     margin:10px;
+    overflow: visible;
+    overflow-wrap: anywhere;
 }
 
 /*footer*/
