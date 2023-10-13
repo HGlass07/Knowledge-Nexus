@@ -175,10 +175,10 @@ main {
 /*blog page*/
 #blog-logo {
     display:flex;
+    flex-direction: row;
     justify-content: flex-end;
     margin:15px;
     font-size:160%;
-    position:absolute;
     right:20px;
     top:340px;
 }
@@ -217,8 +217,8 @@ main {
     margin-right:50px;
 }
 
-#sourcs > h2 {
-    margin:5px;
+#sources figcaption {
+    font-weight: bold;
 }
 
 #sources li{
@@ -242,7 +242,27 @@ footer {
     #intro-images div {
         margin:20px;
     }
+
+    /*contact page sections adjusted for larger screens*/
+    #contact-page {
+        display:flex;
+        flex-direction:row;
+    }
+    
+    #contact {
+        width: 50%;
+    }
+
+    #tutor-details {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    #tutor-details > hr {
+        margin-bottom:30px;
+    }
 }
+
+
 
 /* Desktop and larger media query */
 @media screen and (min-width: 992px) {

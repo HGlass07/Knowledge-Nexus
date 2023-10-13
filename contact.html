@@ -43,57 +43,64 @@
         </div>
 
         <!--contact form-->
-        <section id="contact">
-            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Get in Touch!</h2>
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name:</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address:</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                <br>
-                <div id="query-textarea">
-                    <label for="query">Please describe your query below:</label>
+        <section id="contact-page">
+            <section id="contact">
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2>Get in Touch!</h2>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
                     <br>
-                    <textarea id="query" name="query" placeholder="Your query" rows=5 cols=30>
-                    </textarea>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                    <br>
+                    <label for="email_address">Email Address:</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <br>
+                    <div id="query-textarea">
+                        <label for="query">Please describe your query below:</label>
+                        <br>
+                        <textarea id="query" name="query" placeholder="Your query" rows=5 cols=30>
+                        </textarea>
+                    </div>
+
+                    <button type="submit" id="submit-button">Submit</button>
+                </form>
+            </section>
+
+            <hr id="contact-divide">
+            <section id="tutor-details">
+                <h2>Tutors:</h2>
+                <div>
+                    Name: <b>Joe Blogs</b>
+                    <br>
+                    Email Address: <a href="mailto:joebloggs@gmail.com">joebloggs@gmail.com</a>
                 </div>
-
-                <button type="submit" id="submit-button">Submit</button>
-            </form>
+                <hr class="tutor-divide">
+                <div>
+                    Name: <b>Linda Smith</b>
+                    <br>
+                    Email Address: <a href="mailto:Lsmith@gmail.com">Lsmith@yahoo.com</a>
+                </div>
+                <hr class="tutor-divide">
+                <div>
+                    Name: <b>Hugh Mann</b>
+                    <br>
+                    Email Address: <a href="mailto:H02mann@gmail.com">H02mann@gmail.com</a>
+                </div>
+                <hr class="tutor-divide">
+                <div>
+                    Name: <b>Anita Song</b>
+                    <br>
+                    Email Address: <a href="mailto:song.anita@hotmail.com">song.anita@hotmail.com</a>
+                </div>
+                <hr class="tutor-divide">
+                <div>
+                    Name: <b>Gary Twine</b>
+                    <br>
+                    Email Address: <a href="mailto:gtta@gmail.com">mailto:gtta@gmail.com</a>
+                </div>
+            </section>
         </section>
-
-        <hr id="contact-divide">
-        <section id="tutor-details">
-            <h2>Tutors:</h2>
-            <div>
-                Name: <b>Joe Blogs</b>
-                <br>
-                Email Address: <a href="mailto:joebloggs@gmail.com">joebloggs@gmail.com</a>
-            </div>
-            <hr class="tutor-divide">
-            <div>
-                Name: <b>Linda Smith</b>
-                <br>
-                Email Address: <a href="mailto:Lsmith@gmail.com">Lsmith@yahoo.com</a>
-            </div>
-            <hr class="tutor-divide">
-            <div>
-                Name: <b>Hugh Mann</b>
-                <br>
-                Email Address: <a href="mailto:H02mann@gmail.com">H02mann@gmail.com</a>
-            </div>
-            <hr class="tutor-divide">
-            <div>
-                Name: <b>Anita Song</b>
-                <br>
-                Email Address: <a href="mailto:song.anita@hotmail.com">song.anita@hotmail.com</a>
-            </div>
-        </section>
-
 
     </main>
 
