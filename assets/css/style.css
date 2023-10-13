@@ -1,7 +1,7 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-/*asterisk wildcard command to override defauly browser styless*/
+/*asterisk wildcard command to override default browser styless*/
 * {
     padding:0;
     margin:0;
@@ -167,10 +167,14 @@ main {
 }
 
 /*divides the contact form from the tutor details section on mobile size screens*/
-#contact-divide {
-    border: 1px solid #000000;
-    margin: 15px;
+#tutor-details {
+    padding:10px;
 }
+
+#tutor-details > hr {
+        border: 1px solid #000000;
+        margin: 10px;
+    }
 
 /*blog page*/
 #blog-logo {
@@ -231,8 +235,23 @@ main {
 /*footer*/
 footer {
     background-color:rgba(180, 230, 173, 0.596);
-    height:50px;
+    height:70px;
     border-top: solid 2px #000000;
+}
+
+/*links to social media and youtube*/
+#social-media-links {
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media-links i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
