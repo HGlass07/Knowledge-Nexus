@@ -116,7 +116,6 @@ main {
 
 
 /*contact page form styling*/
-
 #contact-intro {
         text-align: center;
         margin-top: 20px;
@@ -171,13 +170,7 @@ main {
     margin: 15px;
 }
 
-.tutor-divide {
-    ;
-}
-
-
 /*blog page*/
-
 #blog-logo {
     display:flex;
     justify-content: flex-end;
