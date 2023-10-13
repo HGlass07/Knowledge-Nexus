@@ -66,6 +66,10 @@ main {
     visibility: hidden;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #intro {
     text-align:center;
     margin-top:50px;
