@@ -32,7 +32,6 @@ header a {
     text-decoration: none;
     font-weight: bolder;
     color:#000000;
-    
 }
 
 #menu {
@@ -61,6 +60,10 @@ main {
     height: 150px;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+#hero-image h2{
+    visibility: hidden;
 }
 
 #intro {
@@ -117,15 +120,15 @@ main {
 
 /*contact page form styling*/
 #contact-intro {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-#contact-form {
-    display:flex;
-    width:100vw;
+#contact {
+    display: flex;
+    width: 100%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     color: #ffffff;
@@ -135,7 +138,6 @@ main {
 
 #contact-form > h2 {
     color: #fafafa;
-    margin-bottom: 20px;
 }
 
 .text-input {
@@ -209,9 +211,11 @@ main {
 
 #sources {
     display:flex;
-    font-size: xx-small;
+    font-size: small;
     text-align: center;
     justify-content: center;
+    width:100vw;
+    margin:10px;
 }
 
 /*footer*/
