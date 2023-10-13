@@ -217,6 +217,10 @@ main {
     margin-right:50px;
 }
 
+#sourcs > h2 {
+    margin:5px;
+}
+
 #sources li{
     width:80vw;
     margin:10px;
