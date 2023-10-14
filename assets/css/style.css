@@ -258,7 +258,6 @@ footer {
     color: #3a3a3a;
 }
 
-
 /* Tablet and larger media query */
 @media screen and (min-width: 768px)
 {
@@ -283,13 +282,37 @@ footer {
     #tutor-details > hr {
         margin-bottom:30px;
     }
+
+    /*blog content adjusted for larger screens*/
+    #blog-content p{
+        max-width: 600px;
+        margin:auto;
+    }
+
+    #blog-heading {
+        text-align: center;
+    }
+
+    #intro-break {
+        margin-bottom: 50px;
+    }
+
+    #blog-break {
+        margin-top:50px;
+    }
+
 }
-
-
 
 /* Desktop and larger media query */
 @media screen and (min-width: 992px) {
     #intro-images div {
         margin:40px;
     }
+
+    /*blog text adjusted for laptop and larger screens*/
+    #blog-content p {
+        max-width: 1000px;
+        margin: auto;
+    }
+
 }
