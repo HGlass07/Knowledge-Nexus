@@ -63,7 +63,14 @@ The website was tested thouroughly to ensure it functions and displays as indend
 --------------
 **Deployment:**
 
+This project was deployed with the 'pages' function of github, using the steps below:
 
+1. Access the appropriate repository on github
+2. Go to the 'settings' panel and select the 'pages' tab
+3. Ensure the project is deployed from the correct source by selecting 'main branch' in the branch menu.
+4. Save changes
+5. Return to the 'code' panel, and refresh the repository once the build has finished.
+6. The deployed version of the site is now accessible from the right hand menu
 
 --------------
 **Credits:**
@@ -71,6 +78,11 @@ The website was tested thouroughly to ensure it functions and displays as indend
 This website was created by Henry Glasspool
 
 All images used were taken from pexels.com
+- hero image(red jellyfish) - Gabriel Peter 
+- home page image 1(cells) - Pixabay
+- home page image 2(lab) - Chokniti Khongchum
+- home page image 3(petri dishes) - Edward Jenner
+- resources page image(person studying) - Vlada Karpovich
 
 All logos within the site, including those for social media links were souced from fontawesome.com
 
