@@ -84,8 +84,6 @@ main {
 }
 
 /*flex display setting for home page intro section images*/
-
-
 #intro-image-section {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +103,7 @@ main {
 }
 
 /*resources page*/
+
 #revision-sites {
     padding: 10px;
     margin-bottom:30px;
@@ -116,7 +115,6 @@ main {
     margin-top:15px;
     margin-bottom: 15px;
 }
-
 
 #resources-image-section {
     display: flex;
@@ -193,9 +191,9 @@ main {
 }
 
 #tutor-details > hr {
-        border: 1px solid #000000;
-        margin: 10px;
-    }
+    border: 1px solid #000000;
+    margin: 10px;
+}
 
 /*blog page*/
 #blog-logo {
@@ -287,20 +285,27 @@ footer {
         display:flex;
         flex-direction:row;
     }
-    
+
     #contact-section {
         width: 50%;
     }
 
+    /*tutor page adjusted for larger screens*/
     #tutor-details {
         width: 50%;
         margin-bottom: 10px;
     }
+    
     #tutor-details > hr {
         margin-bottom:30px;
     }
 
     /*resources page adjusted for tablet and larger screens*/
+    #resources{
+        display: flex;
+        flex-direction: row;
+    }
+    
     #revision-sites {
         width: 50%;
         margin-bottom: 10px;
@@ -311,11 +316,16 @@ footer {
     }
 
     #resources-image-section {
-        display: flex;
-        flex-wrap: row;
-        align-items:flex-end;
-        justify-content:end;
+        align-items:center;
+        justify-content:center;
         padding: 10px;
+        width:50%;
+    }
+
+    #resources-image {
+        max-width: 350px;
+        max-height: 350px;
+        padding:20px;
     }
 
     /*blog content adjusted for larger screens*/
@@ -340,6 +350,7 @@ footer {
 
 /* Desktop and larger media query */
 @media screen and (min-width: 992px) {
+    /*home page images adjusted for larger screens*/
     #intro-image-section div {
         margin:40px;
     }
@@ -348,6 +359,12 @@ footer {
     #blog-page p {
         max-width: 1000px;
         margin: auto;
+    }
+
+    /*resource page image adjusted for larger screens*/
+    #resources-image {
+        max-width: 500px;
+        max-height: 500px;
     }
 
 }
