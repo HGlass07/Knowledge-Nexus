@@ -12,7 +12,7 @@ Contents:
 
 **Description**:
 
-Knowledge Nexus is a science revision and learning resources tool for key-stages 3 and 4(GCSE). It's aim is to provide an all-in-one directory for revision resources, including links to various trusted external revision sites, as well as details and information about personal tutors in the south-east of England. The website also contains a blog, which would discuss a science related topic that is either in the news, or relevent to current events. 
+Knowledge Nexus is a science revision and learning resources tool for a secondary-school level. It's aim is to provide an all-in-one directory for revision resources, including links to various trusted external revision sites, as well as details and information about personal tutors in the UK England. The website also contains a blog, which discusses a science related topic that is either in the news, or relevent in some other way. 
 
 The website is intended to make it easier to find reliable revision resources, rather than remembering and keeping track of these yourself. Additionally, there is a function for users to get in contact for additional information, particularly regarding tutoring. 
 
@@ -29,19 +29,19 @@ The imagery used has a science theme throughout, and helps to convey the website
 
 Home page:
 
-The home page is simple, and immediately tells users what to expect from the site, and what it can be used for. 
+The home page is simple, and immediately tells users what to expect from the site, and what it can be used for. By combining concise, minimal introductory text; as well as a selection of relevent images, the user's expectations are established, and they can now navigate through the site with ease.
 
 Resources:
 
-The resources page acts as a directory to a selection of useful external resources, including a short description about each one. 
+The resources page acts as a directory to a selection of useful external resources, including a short description about each one. This section is structured in a way that lets a user scan through these and select those most appropriate for them, an image that appears on larger screens adds color and visual appeal without distracting from the main content.
 
 Blog:
 
-The blog page features a short article about a relevent science topic. It is displayed in a clear format with information broken down into digestible paragraphs. The title, author, and date of posting are clearly visable at the top of the page, and the information sources are also listed below the article.
+The blog page features a short article about a relevent science topic. It is displayed in a clear format with information broken down into digestible paragraphs, and key terms in bold. The title, author, and date of posting are clearly visable at the top of the page, and the information sources are also listed below the article - with links in the case of web sources.
 
 Contact:
 
-Visitors can use the contact page to view details of science tutors, as well as submit their own queries - with a textarea feature to allow users provide detail to their request. The information on this page is displayed clearly, and is designed to allow users to very easily use the featured content.
+Users can use the contact page to view details of science tutors, as well as submit their own queries - with a textarea feature to allow users provide detail to their request. The information on this page is displayed clearly, and is designed to allow users to very easily use the featured content. Clicking on the tutor emails immediately directs the user to their default email service, with a draft email generated.
 
 
 --------------
@@ -58,14 +58,27 @@ The website was tested thouroughly to ensure it functions and displays as indend
 
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
 
+- No bugs have arisen during the testing process, and none appear on the deployed version of the site.
 
 --------------
-Credits:
+**Deployment:**
+
+
+
+--------------
+**Credits:**
 
 This website was created by Henry Glasspool
 
 All images used were taken from pexels.com
 
-All logos, including those for social media links were souced from fontawesome.com
+All logos within the site, including those for social media links were souced from fontawesome.com
+
+The favicon was generated using favicon.io
+
+--------------
+**Aknowledgements:**
+
+I would like to thank my tutor Antonio for all his advice during the project, i would also like to thank my mother who was the inspiration behind the website concept.
 
 
