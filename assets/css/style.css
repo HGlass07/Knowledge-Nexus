@@ -84,6 +84,9 @@ main {
 }
 
 /*flex display setting for home page intro section images*/
+
+
+
 #intro-images {
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +95,40 @@ main {
     padding: 10px;
 }
 
+
+
+#intro-image-1 {
+    background: no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#intro-image-2 {
+    background: no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#intro-image-3 {
+    background: no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+*/
+
+/*
 #intro-image-1 {
     background:url(../images/intro-image-1.jpeg) no-repeat top center / cover;
     height: 90vw;
@@ -121,6 +158,8 @@ main {
     max-width: 200px;
     max-height: 200px;
 }
+*/
+
 
 /*resources page*/
 #revision-sites {
