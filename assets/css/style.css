@@ -87,7 +87,7 @@ main {
 
 
 
-#intro-images {
+#intro-image-section {
     display: flex;
     flex-wrap: wrap;
     align-items:center;
@@ -95,9 +95,7 @@ main {
     padding: 10px;
 }
 
-
-
-#intro-image-1 {
+.intro-images {
     background: no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
@@ -106,60 +104,6 @@ main {
     max-width: 200px;
     max-height: 200px;
 }
-
-#intro-image-2 {
-    background: no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-#intro-image-3 {
-    background: no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-*/
-
-/*
-#intro-image-1 {
-    background:url(../images/intro-image-1.jpeg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-#intro-image-2 {
-    background: url(../images/intro-image-2.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-#intro-image-3 {
-    background: url(../images/intro-image-3.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-*/
-
 
 /*resources page*/
 #revision-sites {
@@ -315,7 +259,7 @@ footer {
 /* Tablet and larger media query */
 @media screen and (min-width: 768px)
 {
-    #intro-images div {
+    #intro-image-section div {
         margin:20px;
     }
 
@@ -369,7 +313,7 @@ footer {
 
 /* Desktop and larger media query */
 @media screen and (min-width: 992px) {
-    #intro-images div {
+    #intro-image-section div {
         margin:40px;
     }
 
