@@ -160,7 +160,6 @@ main {
     color: #fafafa;
 }
 
-/*text-area formatting*/
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -172,8 +171,11 @@ main {
     padding: 0 5px;
 }
 
+/*text-area formatting*/
+
 #query {
     resize:none;
+    min-width: 200px;
 }
 
 #submit-button {
@@ -284,11 +286,16 @@ footer {
     #contact-page {
         display:flex;
         flex-direction:row;
-
     }
 
     #contact-section {
         width: 50%;
+    }
+
+    /*textarea adjust for tablet and larger*/
+    #query {
+        resize:horizontal;
+        max-width:300px;
     }
 
     /*tutor page adjusted for larger screens*/
@@ -351,12 +358,6 @@ footer {
         padding:10px;
     }
 
-    #query {
-        resize: horizontal;
-        max-width: 50vw;
-    }
-          
-
 }
 
 /* Desktop and larger media query */
@@ -378,10 +379,16 @@ footer {
         max-height: 500px;
     }
 
+    /*texarea adjust for laptop and larger screens*/
+    #query {
+        resize: horizontal;
+        max-width: 500px;
+    }
+
 }
 
 @media screen and (min-height: 840px) {
-    
+    /*ensures contact form and tutor details appears further down the screen on larger screen heights*/
     #contact-page {
             margin-top:10vh;
         }
