@@ -1,6 +1,6 @@
-**Knowledge Nexus**
+# Knowledge Nexus
 
-Contents:
+**Contents:**
 1. Description
 2. Design
 3. Features
@@ -10,7 +10,7 @@ Contents:
 
 --------------
 
-**Description**:
+**Description:**
 
 Knowledge Nexus is a science revision and learning resources tool for a secondary-school level. It's aim is to provide an all-in-one directory for revision resources, including links to various trusted external revision sites, as well as details and information about personal tutors in the UK England. The website also contains a blog, which discusses a science related topic that is either in the news, or relevent in some other way. 
 
@@ -30,6 +30,10 @@ The imagery used has a science theme throughout, and helps to convey the website
 Home page:
 
 The home page is simple, and immediately tells users what to expect from the site, and what it can be used for. By combining concise, minimal introductory text; as well as a selection of relevent images, the user's expectations are established, and they can now navigate through the site with ease.
+
+![homepage menu screenshot](/workspaces/portfolio-project-1/assets/images/screenshot-menu.png)
+
+
 
 Resources:
 
