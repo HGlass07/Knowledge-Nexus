@@ -58,7 +58,9 @@ The website was tested thouroughly to ensure it functions and displays as indend
 
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
 
-- No bugs have arisen during the testing process, and none appear on the deployed version of the site.
+- Bugs: during testing in the deployed environment, the following bugs were encountered and fixed:
+  1. There was an issue with the content on the 'contact' page appearing too high on the screen when viewed on larger screen heights - this was fixed by adding a media query for longer screens.
+  2. I found that the textarea feature on the 'contact' page was missing placeholder text, and there was no limit on the area resizing - this was fixed by limiting resize depending on screen width, and adding         placeholder text as part of the HTML
 
 --------------
 **Deployment:**
