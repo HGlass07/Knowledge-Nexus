@@ -63,7 +63,7 @@ main {
     position: relative;
 }
 
-#hero-image h2{
+.hidden {
     visibility: hidden;
 }
 
@@ -346,6 +346,10 @@ footer {
         margin-top:50px;
     }
 
+    #sources-heading {
+        padding:10px;
+    }
+
 }
 
 /* Desktop and larger media query */
@@ -355,7 +359,7 @@ footer {
         margin:40px;
     }
 
-    /*blog text adjusted for laptop and larger screens*/
+    /*blog content adjusted for laptop and larger screens*/
     #blog-page p {
         max-width: 1000px;
         margin: auto;
