@@ -191,7 +191,7 @@ main {
     top:340px;
 }
 
-#blog-content {
+#blog-page {
     margin-bottom: 20px;
     margin-top:20px;
 }
@@ -204,7 +204,7 @@ main {
     margin-top:10px;
 }
 
-#blog-content p{
+#blog-page p{
     text-align: center;
     margin-top: 50px;
     padding: 10px;
@@ -284,7 +284,7 @@ footer {
     }
 
     /*blog content adjusted for larger screens*/
-    #blog-content p{
+    #blog-page p{
         max-width: 600px;
         margin:auto;
     }
@@ -310,7 +310,7 @@ footer {
     }
 
     /*blog text adjusted for laptop and larger screens*/
-    #blog-content p {
+    #blog-page p {
         max-width: 1000px;
         margin: auto;
     }
