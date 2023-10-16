@@ -86,7 +86,6 @@ main {
 /*flex display setting for home page intro section images*/
 
 
-
 #intro-image-section {
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +115,26 @@ main {
     margin: 10px;
     margin-top:15px;
     margin-bottom: 15px;
+}
+
+
+#resources-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*resources image formatting*/
+#resources-image {
+    background: no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /*contact page*/
@@ -289,6 +308,14 @@ footer {
 
     #revision-sites > hr {
         margin-bottom: 30px;
+    }
+
+    #resources-image-section {
+        display: flex;
+        flex-wrap: row;
+        align-items:flex-end;
+        justify-content:end;
+        padding: 10px;
     }
 
     /*blog content adjusted for larger screens*/
