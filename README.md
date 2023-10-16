@@ -1,6 +1,6 @@
-**Knowledge Nexus**
+# Knowledge Nexus
 
-Contents:
+## Contents:
 1. Description
 2. Design
 3. Features
@@ -10,7 +10,7 @@ Contents:
 
 --------------
 
-**Description**:
+## Description:
 
 Knowledge Nexus is a science revision and learning resources tool for a secondary-school level. It's aim is to provide an all-in-one directory for revision resources, including links to various trusted external revision sites, as well as details and information about personal tutors in the UK England. The website also contains a blog, which discusses a science related topic that is either in the news, or relevent in some other way. 
 
@@ -18,31 +18,41 @@ The website is intended to make it easier to find reliable revision resources, r
 
 --------------
 
-**Design:**
+## Design: 
 
 The colors for the website were chosen with readability and ease of use in mind, with the colours chosen providing contrast, whilst still being easy on the eye. The design of the site is simple and intuitive, and presents users with unambiguous navigation options. This is done through clear options visible at the top of the page.
 
 The imagery used has a science theme throughout, and helps to convey the website's purpose clearly.
 
 --------------
-**Features:**
+## Features:
 
-Home page:
+### Home page:
 
 The home page is simple, and immediately tells users what to expect from the site, and what it can be used for. By combining concise, minimal introductory text; as well as a selection of relevent images, the user's expectations are established, and they can now navigate through the site with ease.
 
-Resources:
+![homepage menu screenshot](assets/images/screenshot-menu.png)
+
+![homepage menu full screenshot](assets/images/screenshot-home.png)
+
+### Resources:
 
 The resources page acts as a directory to a selection of useful external resources, including a short description about each one. This section is structured in a way that lets a user scan through these and select those most appropriate for them, an image that appears on larger screens adds color and visual appeal without distracting from the main content.
 
-Blog:
+![resources page screenshot](assets/images/screenshot-resources.png)
+
+### Blog:
 
 The blog page features a short article about a relevent science topic. It is displayed in a clear format with information broken down into digestible paragraphs, and key terms in bold. The title, author, and date of posting are clearly visable at the top of the page, and the information sources are also listed below the article - with links in the case of web sources.
 
-Contact:
+![blog page screenshot](assets/images/screenshot-blog-text.png)
+![blog sources screenshot](assets/images/screenshot-blog-sources.png)
+
+### Contact:
 
 Users can use the contact page to view details of science tutors, as well as submit their own queries - with a textarea feature to allow users provide detail to their request. The information on this page is displayed clearly, and is designed to allow users to very easily use the featured content. Clicking on the tutor emails immediately directs the user to their default email service, with a draft email generated.
 
+![contact page screenshot](assets/images/screenshot-contact.png)
 
 --------------
 **Testing:**
@@ -57,6 +67,8 @@ The website was tested thouroughly to ensure it functions and displays as indend
 - W3C CSS validator - no errors are returned when passing the CSS document through this validator
 
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
+
+![responsiveness homepage screenshot](assets/images/screenshot-responsiveness.png) ![responsiveness multiple page screenshot](assets/images/screenshot-responsiveness-2.png)
 
 - Bugs: during testing in the deployed environment, the following bugs were encountered and fixed:
   1. There was an issue with the content on the 'contact' page appearing too high on the screen when viewed on larger screen heights - this was fixed by adding a media query for longer screens.
