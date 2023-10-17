@@ -31,6 +31,8 @@ The imagery used has a science theme throughout, and helps to convey the website
 
 The home page is simple, and immediately tells users what to expect from the site, and what it can be used for. By combining concise, minimal introductory text; as well as a selection of relevent images, the user's expectations are established, and they can now navigate through the site with ease.
 
+The footer located at the bottom of the page provides links to Facebook, Twitter, and Youtube, allowing users to access additional content relevent to the site on these channels.
+
 ![homepage menu screenshot](assets/images/screenshot-menu.png)
 
 ![homepage menu full screenshot](assets/images/screenshot-home.png)
@@ -102,9 +104,17 @@ All logos within the site, including those for social media links were souced fr
 
 The favicon was generated using favicon.io
 
+The content from the blog page was taken from these sources:
+- https://www.huffingtonpost.co.uk/entry/vitamin-d-seasonal-affective-disorder_n_5c3e0200e4b0e0baf5416024
+- http://www.bbc.com/future/story/20181010-do-vitamin-d-supplements-work
+- https://www.independent.co.uk/news/science/depression-vitamin-d-deficiency-lack-study-severity-mental-health-effects-a7369781.html
+- Citation: Sarkar S (2017) Vitamin D for Depression with a Seasonal Pattern: an Effective Treatment Strategy. Int Phys Med Rehab J 1(4): 00021. DOI: 10.15406/ipmrj.2017.01.00021
+- https://www.gov.uk/government/news/phe-publishes-new-advice-on-vitamin-d
+
+
 --------------
 **Aknowledgements:**
 
-I would like to thank my tutor Antonio for all his advice during the project, i would also like to thank my mother who was the inspiration behind the website concept.
+I would like to thank my tutor Antonio for all his advice during the project, I would also like to thank my mother who was the inspiration behind the website concept.
 
 
