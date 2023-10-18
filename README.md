@@ -10,6 +10,8 @@
 
 --------------
 
+[Site Link](https://hglass07.github.io/portfolio-project-1/)
+
 ## Description:
 
 Knowledge Nexus is a science revision and learning resources tool for a secondary-school level. It's aim is to provide an all-in-one directory for revision resources, including links to various trusted external revision sites, as well as details and information about personal tutors in the UK England. The website also contains a blog, which discusses a science related topic that is either in the news, or relevent in some other way. 
@@ -70,19 +72,22 @@ The website was tested thouroughly to ensure it functions and displays as indend
 
 - Lighthouse - a lighthouse score was generated for each page on the site, the results of which can be found belo2
 
-<details>
-  <summary>Lighthouse scores:</summary>
-    <b>Homepage</b>
-  
-    ![homepage lighthouse score]((assets/images/homepage-lighthouse.png)
-    
-    <b>Resources Page</b>
-    ![homepage lighthouse score]((assets/images/resources-lighthouse.png)
-    <b>Blog Page</b>
-    ![homepage lighthouse score]((assets/images/blog-lighthouse.png)
-    <b>Contact Page</b>
-    ![homepage lighthouse score]((assets/images/contact-lighthouse.png)
-</details>
+<b>Homepage:</b>
+
+![homepage lighthouse score](assets/images/homepage-lighthouse.png)
+
+<b>Resources Page:</b>
+
+![homepage lighthouse score](assets/images/resources-lighthouse.png)
+
+<b>Blog Page:</b>
+
+![homepage lighthouse score](assets/images/blog-lighthouse.png)
+
+<b>Contact Page:</b>
+
+![homepage lighthouse score](assets/images/contact-lighthouse.png)
+
 
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
 
