@@ -59,7 +59,7 @@ Users can use the contact page to view details of science tutors, as well as sub
 ![contact page screenshot](assets/images/screenshot-contact.png)
 
 --------------
-**Testing:**
+## Testing:
 
 The website was tested thouroughly to ensure it functions and displays as indended. The below tools were used to test and validate the site.
 
@@ -99,7 +99,7 @@ The website was tested thouroughly to ensure it functions and displays as indend
   3. The initial lighhouse scores for the page showed a poor rating for performance, this was due to the size of the images - this was fixed by using TinyPNG to compress the images to a smaller size, increasing performance.
 
 --------------
-**Deployment:**
+## Deployment:
 
 This project was deployed with the 'pages' function of github, using the steps below:
 
