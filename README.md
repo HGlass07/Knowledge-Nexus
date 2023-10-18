@@ -68,6 +68,18 @@ The website was tested thouroughly to ensure it functions and displays as indend
 
 - W3C CSS validator - no errors are returned when passing the CSS document through this validator
 
+- Lighthouse - a lighthouse score was generated for each page on the site, the results of which can be found belo2
+
+<summary></summary>
+<b>Homepage</b>
+![homepage lighthouse score]((assets/images/homepage-lighthouse.png)
+<b>Resources Page</b>
+![homepage lighthouse score]((assets/images/resources-lighthouse.png)
+<b>Blog Page</b>
+![homepage lighthouse score]((assets/images/blog-lighthouse.png)
+<b>Contact Page</b>
+![homepage lighthouse score]((assets/images/contact-lighthouse.png)
+
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
 
 ![responsiveness homepage screenshot](assets/images/screenshot-responsiveness.png) ![responsiveness multiple page screenshot](assets/images/screenshot-responsiveness-2.png)
@@ -75,6 +87,7 @@ The website was tested thouroughly to ensure it functions and displays as indend
 - Bugs: during testing in the deployed environment, the following bugs were encountered and fixed:
   1. There was an issue with the content on the 'contact' page appearing too high on the screen when viewed on larger screen heights - this was fixed by adding a media query for longer screens.
   2. I found that the textarea feature on the 'contact' page was missing placeholder text, and there was no limit on the area resizing - this was fixed by limiting resize depending on screen width, and adding         placeholder text as part of the HTML
+  3. The initial lighhouse scores for the page showed a poor rating for performance, this was due to the size of the images - this was fixed by using TinyPNG to compress the images to a smaller size, increasing performance.
 
 --------------
 **Deployment:**
@@ -99,6 +112,8 @@ All images used were taken from pexels.com
 - home page image 2(lab) - Chokniti Khongchum
 - home page image 3(petri dishes) - Edward Jenner
 - resources page image(person studying) - Vlada Karpovich
+
+Images were compressed using TinyPNG.com
 
 All logos within the site, including those for social media links were souced from fontawesome.com
 
