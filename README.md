@@ -111,7 +111,7 @@ This project was deployed with the 'pages' function of github, using the steps b
 6. The deployed version of the site is now accessible from the right hand menu
 
 --------------
-**Credits:**
+## Credits:
 
 This website was created by Henry Glasspool
 
@@ -137,7 +137,7 @@ The content from the blog page was taken from these sources:
 
 
 --------------
-**Aknowledgements:**
+## Aknowledgements:
 
 I would like to thank my tutor Antonio for all his advice during the project, I would also like to thank my mother who was the inspiration behind the website concept.
 
