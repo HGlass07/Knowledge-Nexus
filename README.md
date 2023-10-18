@@ -73,7 +73,9 @@ The website was tested thouroughly to ensure it functions and displays as indend
 <details>
   <summary>Lighthouse scores:</summary>
     <b>Homepage</b>
+  
     ![homepage lighthouse score]((assets/images/homepage-lighthouse.png)
+    
     <b>Resources Page</b>
     ![homepage lighthouse score]((assets/images/resources-lighthouse.png)
     <b>Blog Page</b>
