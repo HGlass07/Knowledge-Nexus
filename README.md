@@ -70,15 +70,17 @@ The website was tested thouroughly to ensure it functions and displays as indend
 
 - Lighthouse - a lighthouse score was generated for each page on the site, the results of which can be found belo2
 
-<summary></summary>
-<b>Homepage</b>
-![homepage lighthouse score]((assets/images/homepage-lighthouse.png)
-<b>Resources Page</b>
-![homepage lighthouse score]((assets/images/resources-lighthouse.png)
-<b>Blog Page</b>
-![homepage lighthouse score]((assets/images/blog-lighthouse.png)
-<b>Contact Page</b>
-![homepage lighthouse score]((assets/images/contact-lighthouse.png)
+<details>
+  <summary>Lighthouse scores:</summary>
+    <b>Homepage</b>
+    ![homepage lighthouse score]((assets/images/homepage-lighthouse.png)
+    <b>Resources Page</b>
+    ![homepage lighthouse score]((assets/images/resources-lighthouse.png)
+    <b>Blog Page</b>
+    ![homepage lighthouse score]((assets/images/blog-lighthouse.png)
+    <b>Contact Page</b>
+    ![homepage lighthouse score]((assets/images/contact-lighthouse.png)
+</details>
 
 - Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
 
