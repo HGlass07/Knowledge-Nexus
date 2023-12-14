@@ -43,7 +43,17 @@ The footer located at the bottom of the page provides links to Facebook, Twitter
 
 The resources page acts as a directory to a selection of useful external resources, including a short description about each one. This section is structured in a way that lets a user scan through these and select those most appropriate for them, an image that appears on larger screens adds color and visual appeal without distracting from the main content.
 
+
+
 ![resources page screenshot](assets/images/screenshot-resources.png)
+
+
+<details><summary>Does work</summary>
+
+![resources page screenshot](assets/images/screenshot-resources.png)
+
+</details>
+
 
 ### Blog:
 
